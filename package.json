@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "date-utils": "^1.2.21",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "zip": "zip -r slack-bot.zip ./ && mv -f slack-bot.zip ~/Downloads/"
+  }
+}
